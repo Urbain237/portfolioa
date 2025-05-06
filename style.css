@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    background-color: #fff;
+}
+header {
+    padding: 20px 8px;
+    justify-content: center;
+}
+section {
+    padding: 70px 8px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+}
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    color: #f6d238;
+}
+.logo-div {
+    width: 30px;
+}
+.logo span {
+    color: #f6d238;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    list-style: none;
+}
+ul li {
+    padding: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #999;
+    transition: 0.5s;
+    font-size: 16px;
+    justify-content: center;
+}
+ul li a:hover {
+    background-color: #f6d238;
+    padding: 15px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.btn-header {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    color: #000;
+    background-color: #f6d238;
+    border: 2px solid #f6d238;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: #333;
+    transform: rotate(5deg);
+}
+.home-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home-section .left {
+    position: relative;
+    height: 500px;
+    width: 600px;
+}
+.home-section .left img {
+    position: absolute;
+    object-fit: cover;
+    border: 8px solid #f6d238;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+.home-section .left-image-1 {
+    width: 450px;
+    height: 500px;
+    transition: 0.5s;
+}
+.home-section .left-image-1:hover {
+    transform: scale(1.2) rotate(11deg);
+}
+
+.home-section .left-image-2 {
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 250px;
+    transition: 0.5s;
+}
+.home-section .left-image-2:hover {
+    transform: scale(1.2) rotate(-11deg);
+}
+.right {
+    margin-left: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right .text-right {
+    color: #f6d238;
+    font-weight: bold;
+}
+.right h1 {
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.right p {
+    margin-bottom: 25px;
+    color: #999;
+    width: 70%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.see-video {
+    border: 0;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.see-video span {
+    margin-left: 25px;
+    font-weight: bold;
+}
+.video-bg {
+    margin-left: 20px;
+    background: url(image/img3.jpg);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.desc-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.desc-button .buttons button {
+    background-color: #f6d238;
+    border: 0;
+    cursor: pointer;
+    border: 2px solid #f6d238;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.desc-button .buttons button:hover {
+    background-color: #f1f1f1;
+    transform: rotate(10deg);
+}
+.second {
+    margin-left: 20px;
+}
+.destinations .small-desc {
+    color: #999;
+    width: 60%;
+    font-size: 15px;
+}
+.destinations .gallerie {
+    width: 24%;
+    height: 350px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+}
+.destinations .gallerie .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+.destinations .gallerie {
+    display: flex;
+    justify-content: space-between;
+}
+.im {
+    display: flex;
+    justify-content: space-between;
+}
+.best-trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-list {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-list .box {
+    width: 32.33%;
+    height: 400px;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.box-list .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;  
+}
+.box-list .box:hover img {
+    transform: scale(2) rotate(10deg);
+}
+.box-list .box .description {
+    position: absolute;
+    bottom: 0;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 100%;
+    transition: 0.5s;
+}
+.box-list .box .description h2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.rating {
+    color: #f6d238;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.box-list .description .button-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-list .description .button-description span {
+    font-size: 15px;
+}
+.box-list .description .button-description button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #f6d238;
+    color: #f6d238;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box-list .description .button-description button:hover {
+    background-color: #f6d238;
+    color: black;
+}
+.best-trip .title {
+    text-align: center;
+    font-size: 30px;
+}
+.best-trip .small-desc {
+    text-align: center;
+    margin: 30px auto;
+    color: #999;font-size: 15px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
